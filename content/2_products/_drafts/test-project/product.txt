@@ -1,5 +1,0 @@
-Title: test project
-
-----
-
-Text: Dit is een test project.
