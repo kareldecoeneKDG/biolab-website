@@ -1,0 +1,33 @@
+{
+  "name": "plainkit",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/plainkit.jpg\" width=\"300\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getkirby/plainkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getkirby/plainkit/issues"
+  },
+  "homepage": "https://github.com/getkirby/plainkit#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "g": "^2.0.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-series": "^1.0.2"
+  }
+}
