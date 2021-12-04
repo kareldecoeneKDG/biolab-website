@@ -78,7 +78,16 @@ Biolabimage:
 
 ----
 
-Manufacturers: 
+Manufacturers:
+
+- 
+  image:
+    - logo.png
+  url: https://www.kuleuven.be/kuleuven/
+- 
+  image:
+    - image_preview.png
+  url: https://www.kuleuven.be/kuleuven/
 
 ----
 

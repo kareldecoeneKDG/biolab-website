@@ -41,7 +41,7 @@
 
 
                 <?php // BLOCK ?>
-                <div class="footer__content__block">
+                <div class="footer__content__block block-narrow">
 
                     <?php if ($site->openhoursTitle()->isNotEmpty()): ?>
                         <h4 class="footer__content__block__title h4-footer h4"><?=$site->openhoursTitle()?></h4>
@@ -160,7 +160,7 @@
 
 
                 <?php // BLOCK ?>
-                <div class="footer__content__block">
+                <div class="footer__content__block block-narrow">
 
                     <?php if ($site->openhoursTitle()->isNotEmpty()): ?>
                         <h4 class="footer__content__block__title h4-footer h4"><?=$site->openhoursTitle()?></h4>

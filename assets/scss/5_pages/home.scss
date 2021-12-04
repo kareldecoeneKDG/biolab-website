@@ -2,7 +2,7 @@
     background-color: $background-grey;
     padding-bottom: 50px;
 
-    &__partnersflexbox {
+    .partners {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -10,7 +10,9 @@
         padding-left: $margin-side-mobile;
         padding-right: $margin-side-mobile;
         width: 100%;
+    }
 
+    &__partnersflexbox {
         &__box {
             width: 60px;
             height: 60px;
@@ -104,7 +106,7 @@
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
     .home-container {
-        &__partnersflexbox {
+        .partners {
             padding-left: $margin-side-tablet-portrait;
             padding-right: $margin-side-tablet-portrait;
         }
@@ -132,7 +134,7 @@
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
     .home-container {
-        &__partnersflexbox {
+        .partners {
             padding-left: $margin-side-tablet-landscape;
             padding-right: $margin-side-tablet-landscape;
         }
@@ -188,14 +190,16 @@
             margin-top: 60px;
         }
 
-        &__partnersflexbox {
+        .partners {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             position: relative;
             padding-left: $margin-side-desktop;
             padding-right: $margin-side-desktop;
+        }
 
+        &__partnersflexbox {
             &__box {
                 width: 75px;
                 height: 75px;
@@ -297,10 +301,12 @@
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
     .home-container {
-        &__partnersflexbox {
+        .partners {
             padding-left: $margin-side-hd;
             padding-right: $margin-side-hd;
+        }
 
+        &__partnersflexbox {
             &__box {
                 right: $margin-side-hd;
             }
@@ -333,10 +339,12 @@
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
     .home-container {
-        &__partnersflexbox {
+        .partners {
             padding-left: $margin-side-qhd;
             padding-right: $margin-side-qhd;
+        }
 
+        &__partnersflexbox {
             &__box {
                 right: $margin-side-qhd;
             }
@@ -391,10 +399,12 @@
             }
         }
 
-        &__partnersflexbox {
+        .partners {
             padding-left: $margin-side-4k;
             padding-right: $margin-side-4k;
+        }
 
+        &__partnersflexbox {
             &__box {
                 right: $margin-side-4k;
             }

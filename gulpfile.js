@@ -43,7 +43,7 @@ function server(cb) {
         notify: false,
         open: false,
         proxy: "http://localhost/biolab-website",
-        port: 5000
+        //port: 5000
     })
     cb();
 }

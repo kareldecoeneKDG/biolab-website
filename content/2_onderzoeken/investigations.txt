@@ -1,0 +1,27 @@
+Title: Onderzoeken
+
+----
+
+Introductiontitle: Dit is niét een doorsnee chemisch labo...
+
+----
+
+Introductionparagraph: De analytische balans waar je met vier cijfertjes na de komma rekening moet houden, laten we hier achterwege. Er zijn geen veiligheidstrekkasten met zuren,basen en vluchtige solventen en de strikte laborichtlijnen waarin staat ‘NIET DRINKEN EN NIET ETEN IN HET LABO’, zijn hier niet van toepassing. <br><br>In het Biolab wordt er gewerkt met veilige materialen en hernieuwbare grondstoffen. We willen namelijk dat je hier het gevoel krijgt dat je gewoon “in de keuken staat” en experimenteert met dagdagelijkse materialen. Je kan hier je vegan snoepjes komen maken, maar evengoed je creativiteit de vrije loop laten en komen “schilderen” met bio-organische materialen.  <br><br>Met andere woorden, waar je thuis nooit toe komt om het eens uit te proberen, kan bij ons perfect.
+
+----
+
+Introductionimage:
+
+- nolab-intro-image.webp
+
+----
+
+Investigationsbiolabtitle: De onderzoeken van BioLab
+
+----
+
+Investigationstitle: 
+
+----
+
+Text: 

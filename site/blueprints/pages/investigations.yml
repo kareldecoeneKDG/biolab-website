@@ -1,0 +1,31 @@
+Title: Onderzoeken
+
+fields:
+
+  introductionTitle:
+    label: Pagina titel
+    type: text
+  introductionParagraph:
+    label: Geen labo paragraaf
+    type: writer
+    inline: true
+  introductionImage:
+    label: Geen labo image
+    type: files
+    max: 1
+  
+  investigationsBiolabTitle:
+    label: Onderzoeken Biolab titel
+    type: text
+  investigations:
+    label: Onderzoeken
+    type: structure
+    fields:
+      image:
+        type: files
+        max: 1
+      title:
+        type: text
+      paragraph:
+        type: writer
+        inline: true
