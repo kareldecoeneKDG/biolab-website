@@ -1,0 +1,93 @@
+Title: Home
+
+----
+
+Backgroundimg:
+
+- biolab-header-image.webp
+
+----
+
+Messagetitle: Belangrijk
+
+----
+
+Messagetext: Gelieve een mail te sturen alvorens Biolab te bezoeken.
+
+----
+
+Whatisfablabtitle: Wat is Biolab?
+
+----
+
+Whatisfablabtext: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web.
+
+----
+
+Whatisfablabbuttontext: Meer over Biolab
+
+----
+
+Openhourskdgtitle: Openingsuren
+
+----
+
+Openhourskdgtext: Ma - do: 9.00u - 16.00u
+
+----
+
+Openhoursexterntitle: 
+
+----
+
+Openhoursexterntext: Gelieve een mail te sturen alvorens BioLab te bezoeken.
+
+----
+
+Workingfablabtitle: Bioprocestechnologie in de lift
+
+----
+
+Workingfablabtext: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web.
+
+----
+
+Workingfablabbuttontext: Meer over onderzoeken
+
+----
+
+Workingfablabimage:
+
+- onderzoeken.webp
+
+----
+
+Biolabtitle: 
+
+----
+
+Biolabtext: 
+
+----
+
+Biolabbuttontext: 
+
+----
+
+Biolabimage: 
+
+----
+
+Manufacturers: 
+
+----
+
+Fablabs: 
+
+----
+
+Partners:
+
+- kdg_h_closed_black_srgb.png
+- >
+  provincie_antwerpen_logo_rgb_nobackground.png

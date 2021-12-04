@@ -1,0 +1,104 @@
+title: Homepage
+
+columns:
+  - width: 1/2
+    sections:
+    fields:
+      backgroundimg:
+        label: Achtergrondafbeelding home
+        type: files
+      
+      messageTitle:
+        label: Boodschap titel
+        type: text
+      messageText:
+        label: Boodschap paragraaf
+        type: writer
+        inline: true
+
+      whatIsFablabTitle:
+        label: Wat is Fablab titel
+        type: text
+      whatIsFablabText:
+        label: Wat is Fablab paragraaf
+        type: writer
+        inline: true
+      whatIsFablabButtonText:
+        label: Wat is Fablab knoptekst
+        type: text
+
+      openhoursKdGTitle:
+        label: Openingsuren intern titel
+        type: text
+      openhoursKdGText:
+        label: Openingsuren intern uren
+        type: text
+      openhoursExternTitle:
+        label: Openingsuren extern titel
+        type: text
+      openhoursExternText:
+        label: Openingsuren extern uren
+        type: text
+
+      workingFablabTitle:
+        label: Werking Fablab titel
+        type: text
+      workingFablabText:
+        label: Werking Fablab paragraaf
+        type: writer
+        inline: true
+      workingFablabButtonText:
+        label: Werking Fablab knoptekst
+        type: text
+      workingFablabImage:
+        label: Werking Fablab image
+        type: files
+
+      biolabTitle:
+        label: Biolab titel
+        type: text
+      biolabText:
+        label: Biolab paragraaf
+        type: writer
+        inline: true
+      biolabButtonText:
+        label: Biolab knoptekst
+        type: text
+      biolabImage:
+        label: Biolab image
+        type: files
+
+      manufacturers:
+        label: Manufacturers
+        type: structure
+        max: 24
+        columns:
+          image:
+            width: 1/3
+          url:
+            width: 2/3
+        fields:
+          image:
+            type: files
+            max: 1
+          url:
+            type: url
+      fablabs:
+        label: Fablabs
+        type: structure
+        columns:
+          image:
+            width: 1/3
+          url:
+            width: 2/3
+        fields:
+          image:
+            type: files
+            max: 1
+          url:
+            type: url
+
+
+      partners:
+        label: Partner logo's
+        type: files
