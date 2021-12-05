@@ -1,0 +1,29 @@
+Title: Wat is Biolab
+
+----
+
+Whatisfablabtitle: Wat is Biolab
+
+----
+
+Whatisfablabtext: Het KdG BioLab is een initiatief van KdG Fablab en de bacheloropleiding Chemie van KdG. Het doel is om studenten, professionelen en andere geïnteresseerden voor innovatieve, duurzame biochemische design-processen de mogelijkheid te bieden onderzoeksprojecten op te zetten in een fablab omgeving en, onder begeleiding van ervaren mentoren, hands-on industriële toepassingen te onderzoeken en levensvatbare concepten uit te tekenen.<br><br>In synergie met het KdG FabLab onderzoeken we mogelijke alternatieven voor de huidige industriële processen en gaan we op zoek naar concrete toepassingen in de bio-economie en circulaire economie. Daarnaast is het BioLab een fysieke plek en een digitaal platform met een levendige gemeenschap van geïnteresseerden, gemotiveerde studenten, onderzoekers en/of andere belanghebbenden die met elkaar in contact komen en kennis en technologie uit het BioLab en het Fablab combineren.
+
+----
+
+Wordfablabtitle: Biotechnology in het FabLab
+
+----
+
+Wordfablabtext: Biotechnologie is de wetenschap en technologie van het gebruik van micro-organismen in processen voor industriële en andere toepassingen, nuttig voor de mens. Micro-organismen zijn één- of meercellige organismen, zoals bacteriën, gisten, schimmels en algen. Er bestaan talloze verschillende soorten micro-organismen en vele ervan helpen ons op grote schaal bij de vervaardiging van allerlei soorten producten. Zo worden producten als brood, bier en wijn gemaakt met de hulp van gist, een eencellige schimmel, en zo zijn melkzuurbacteriën verantwoordelijk voor de productie van zuurkool en yoghurt. Deze toepassingen kent de mens al eeuwenlang. <br><br>Micro-organismen worden niet alleen op grote schaal ingezet in de voedingsmiddelenindustrie, maar ook voor de productie van bijvoorbeeld biobrandstoffen, chemicaliën en medicijnen. Ze worden ook gebruikt voor de zuivering van lucht, water en bodem.<br><br>Biotechnologische processen hebben een duurzaam karakter: er wordt namelijk gebruik gemaakt van hernieuwbare grondstoffen. In deze processen kunnen ook afvalstromen uit de agro- en de voedingsindustrie ingezet worden. De processen zelf verlopen onder omstandigheden met respect voor mens en milieu; daarom kunnen biotechnologische processen een waardevol en duurzamer alternatief zijn voor bestaande chemische processen.
+
+----
+
+Synergyfablabtitle: Bioprocestechnologie in synergie met het Fablab
+
+----
+
+Synergyfablabtext: In synergie met het KdG Fablab gaan we op zoek naar concrete toepassingen en mogelijke alternatieven voor huidige industriële processen. Zo zetten we o.a. in op het onderzoek naar een duurzamer en milieuvriendelijker alternatief voor dierlijk leder: bioleder of vegan leder. Dit zal gebeuren door gebruik te maken van enerzijds de scoby uit het fermentatieproces van kombucha, en anderzijds van een product gebaseerd op mycelium.
+
+----
+
+Text: 

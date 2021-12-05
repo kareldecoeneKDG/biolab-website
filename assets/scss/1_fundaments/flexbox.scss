@@ -38,4 +38,11 @@
         flex-direction: column;
         justify-content: space-around;
     }
+
+    .flex-row-desktop-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 50px;
+    }
 }

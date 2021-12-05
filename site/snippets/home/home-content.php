@@ -49,7 +49,7 @@
 
     <?php //IMAGE MOBILE 
     ?>
-    <div class="info__banner banner-fablab banner-home">
+    <div class="info__banner banner-biolab banner-home">
         <?php if ($page->workingFablabTitle()->isNotEmpty()) : ?>
             <h2 class="info__banner__title h2-home h2"><?= $page->workingFablabTitle() ?></h2>
         <?php endif; ?>

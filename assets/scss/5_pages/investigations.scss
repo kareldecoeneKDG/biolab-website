@@ -24,3 +24,81 @@
 .investigation-item:last-of-type {
     margin-bottom: 20px;
 }
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .introductionNoLab {
+        padding-bottom: 20px;
+
+        &__title {
+            margin-bottom: 0;
+        }
+
+        .flex-row-desktop-reverse {
+            margin-top: 50px;
+        }
+    
+        &__img {
+            margin-bottom: 0px;
+            border-radius: $border-radius-big;
+            object-fit: cover;
+            width: 50%;
+            height: 300px;
+        }
+    }
+
+    .investigations-overview {
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        .flex-row-desktop {
+            gap: 50px;
+        }
+    }
+
+    .investigation-item {
+        &__img {
+            margin-bottom: 0px;
+            object-fit: cover;
+            width: 50%;
+            height: 450px;
+        }
+    }
+}
+
+// DESKTOP - 1366PX
+@media only screen and (min-width: $desktop-1366) {
+    .investigation-item {
+        &__img {
+            height: 400px;
+        }
+    }
+}
+
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .investigation-item {
+        &__img {
+            height: 350px;
+        }
+    }
+}
+
+// DESKTOP - 1600PX
+@media screen and (min-width: $desktop-1600) {
+    .investigation-item {
+        &__img {
+            height: 300px;
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .investigation-item {
+        &__img {
+            height: 375px;
+        }
+    }
+}

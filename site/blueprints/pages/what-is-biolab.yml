@@ -1,0 +1,29 @@
+title: Wat is Biolab
+
+columns:
+  - width: 1/2
+    sections:
+    fields:
+      whatIsFablabTitle:
+        label: Wat is Fablab titel
+        type: text
+      whatIsFablabText:
+        label: Wat is Fablab text
+        type: writer
+        inline: true
+      
+      wordFablabTitle:
+        label: Van waar komt woord Fablab titel
+        type: text
+      wordFablabText:
+        label: Van waar komt het woord Fablab
+        type: writer
+        inline: true
+
+      synergyFablabTitle:
+        label: synergie met het Fablab title
+        type: text
+      synergyFablabText:
+        label: synergie met het Fablab paragraaf
+        type: writer
+        inline: true

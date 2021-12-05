@@ -10,7 +10,7 @@
             <h1 class="introductionNoLab__title h1"><?= $page->introductionTitle() ?></h1>
         <?php endif; ?>
 
-        <div class="flex-row-desktop">
+        <div class="flex-row-desktop-reverse">
             <?php if($image = $page->introductionImage()->toFile()): ?>
                 <img class="introductionNoLab__img img" src="<?= $image->url() ?>" alt="bla">
             <?php endif; ?>

@@ -88,12 +88,9 @@
 }
 
 .info {
-    .banner-fablab {
-        background-image: url("../../assets/images/fablab.webp");
-    }
-
     .banner-biolab {
-        background-image: url("../../assets/images/biolab.webp");
+        //padding-bottom: 20px;
+        background-image: url("../../assets/images/biolab.png");
     }
 
     &__imagecontainer {
@@ -285,14 +282,6 @@
     .introduction {
         .flex-column {
             height: 21vh;
-        }
-    }
-}
-
-// DESKTOP - 1536PX
-@media screen and (min-width: $desktop-1536) {
-    .introduction {
-        .flex-column {
             width: 40%;
         }
     }

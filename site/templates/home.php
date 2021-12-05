@@ -71,4 +71,4 @@
 
 <?= js('build/js/tabbar.js') ?>
 <?= js('build/js/home-animation.js') ?>
-<?= js('build/js/menuobserver.js') ?>
+<?= js('build/js/menuObserver.js') ?>
