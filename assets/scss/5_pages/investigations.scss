@@ -1,0 +1,26 @@
+.introductionNoLab {
+    padding-bottom: 20px;
+
+    &__img {
+        margin-bottom: 30px;
+        border-radius: $border-radius-big;
+    }
+}
+
+.investigation-item {
+    margin-bottom: 50px;
+
+    &__img {
+        border-radius: $border-radius-big;
+    }
+
+    &__button {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+}
+
+.investigation-item:last-of-type {
+    margin-bottom: 20px;
+}

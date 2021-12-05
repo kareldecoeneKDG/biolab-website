@@ -1,9 +1,9 @@
 const {src, dest, series, parallel, watch} = require('gulp');
 const del = require('del');
-//const browserSync = require('browser-sync');
-const browserSync = require('browser-sync').create();
+const browserSync = require('browser-sync');
+//const browserSync = require('browser-sync').create();
 
-/* const sass = require('gulp-sass'); */
+// const sass = require('gulp-sass');
 const sass = require('gulp-sass')(require('sass'));
 
 const origin = 'assets';
@@ -43,7 +43,7 @@ function server(cb) {
         notify: false,
         open: false,
         proxy: "http://localhost/biolab-website",
-        //port: 5000
+        port: 3000
     })
     cb();
 }

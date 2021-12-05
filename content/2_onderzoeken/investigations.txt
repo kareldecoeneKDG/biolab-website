@@ -6,7 +6,7 @@ Introductiontitle: Dit is niét een doorsnee chemisch labo...
 
 ----
 
-Introductionparagraph: De analytische balans waar je met vier cijfertjes na de komma rekening moet houden, laten we hier achterwege. Er zijn geen veiligheidstrekkasten met zuren,basen en vluchtige solventen en de strikte laborichtlijnen waarin staat ‘NIET DRINKEN EN NIET ETEN IN HET LABO’, zijn hier niet van toepassing. <br><br>In het Biolab wordt er gewerkt met veilige materialen en hernieuwbare grondstoffen. We willen namelijk dat je hier het gevoel krijgt dat je gewoon “in de keuken staat” en experimenteert met dagdagelijkse materialen. Je kan hier je vegan snoepjes komen maken, maar evengoed je creativiteit de vrije loop laten en komen “schilderen” met bio-organische materialen.  <br><br>Met andere woorden, waar je thuis nooit toe komt om het eens uit te proberen, kan bij ons perfect.
+Introductionparagraph: De analytische balans waar je met vier cijfertjes na de komma rekening moet houden, laten we hier achterwege. Er zijn geen veiligheidstrekkasten met zuren,basen en vluchtige solventen en de strikte laborichtlijnen waarin staat ‘NIET DRINKEN EN NIET ETEN IN HET LABO’, zijn hier niet van toepassing.<br><br>In het Biolab wordt er gewerkt met veilige materialen en hernieuwbare grondstoffen. We willen namelijk dat je hier het gevoel krijgt dat je gewoon “in de keuken staat” en experimenteert met dagdagelijkse materialen. Je kan hier je vegan snoepjes komen maken, maar evengoed je creativiteit de vrije loop laten en komen “schilderen” met bio-organische materialen.<br><br>Met andere woorden, waar je thuis nooit toe komt om het eens uit te proberen, kan bij ons perfect.
 
 ----
 
@@ -17,6 +17,55 @@ Introductionimage:
 ----
 
 Investigationsbiolabtitle: De onderzoeken van BioLab
+
+----
+
+Investigations:
+
+- 
+  image:
+    - kombucha.webp
+  title: Kombucha
+  paragraph: >
+    Bij de productie van kombucha, het hippe
+    thee-drankje, wordt bovenop de vloeistof
+    een scoby gevormd. Deze scoby (symbiotic
+    culture of bacteria and yeast) is een
+    biofilm van cellulose waarin gisten en
+    bacteriën samen groeien om uit thee en
+    suiker de kombucha drank te fermenteren.
+    Kombucha is een verfrissende
+    niet-alcoholische drank, maar de scoby
+    werd tot nu toe beschouwd als afval. Het
+    is echter een stevig materiaal, het
+    bestaat uit bacterieel cellulose (zoals
+    het hoofdbestanddeel van papier), en
+    mits nabehandeling kan het omgevormd
+    worden tot iets duurzaams, dat als basis
+    voor o.a. bioleder (of vegan leder) kan
+    ingezet worden.
+- 
+  image:
+    - paddenstoel.webp
+  title: Mycelium
+  paragraph: >
+    Ook de productie van bioleder vanuit
+    mycelium wordt onderzocht. Dierlijk
+    leder kampt met een aantal
+    duurzaamheidsproblemen. Het wordt
+    gemaakt van dierenhuid, meestal van de
+    koe, en hangt daarom natuurlijk samen
+    met de veeteelt. De problemen rond
+    duurzaamheid van deze sector zijn
+    bekend; veeteelt stoot veel
+    broeikasgassen uit, veroorzaakt veel
+    dierlijk leed en bij het verwerken van
+    dierenhuiden tot leder worden
+    verschillende chemische toxische stoffen
+    gebruikt. Deze worden niet altijd
+    duurzaam verwerkt en onschadelijk
+    gemaakt, dikwijls komen deze stoffen in
+    water en bodem terecht
 
 ----
 

@@ -29,32 +29,21 @@
         <?php endif; ?>
 
         <?php $investigations = $page->investigations()->toStructure(); ?>
+        <?php foreach($investigations as $investigation): ?>
 
-        <div class="flex-row-desktop">
-            <img class="img" src="#" alt="bla">
+            <div class="investigation-item flex-row-desktop">
+                <?php if($image = $investigation->image()->toFile()): ?>
+                    <img class="investigation-item__img img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+                <?php endif; ?>
 
-            <div>
-                <h3>Test title</h3>
-                <p class="p">
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale 
-                    verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web.
-                </p>
-                <a class="button-small" href="#">Test</a>
+                <div>
+                    <h3 class="investigation-item__title h3"><?= $investigation->title() ?></h3>
+                    <p class="investigation-item__paragraph p"><?= $investigation->paragraph() ?></p>
+                    <a class="investigation-item__button button-small" href="#">Meer over dit onderzoek</a>
+                </div>
             </div>
-        </div>
 
-        <div class="flex-row-desktop">
-            <img class="img" src="#" alt="bla">
-
-            <div>
-                <h3>Test title</h3>
-                <p class="p">
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale 
-                    verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web.
-                </p>
-                <a class="button-small" href="#">Test</a>
-            </div>
-        </div>
+        <?php endforeach; ?>
     </section>
 </div>
 
