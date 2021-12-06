@@ -2,7 +2,7 @@ Title: Eerste nieuws post
 
 ----
 
-Blogtext: Nunc accumsan venenatis velit. Ut convallis nisi porttitor dignissim tristique. Nunc a lectus sodales, fringilla magna nec, ultrices diam.  Nulla id malesuada nunc, ac sollicitudin risus. Sed convallis sapien id lacinia ornare. Nullam vel fringilla ipsum. Curabitur vestibulum tempus mi. Nullam posuere dui eu risus efficitur, sit amet porta purus pretium. Curabitur euismod porta odio, quis sodales nisl egestas in.  Vivamus elementum vehicula nulla id imperdiet. Quisque at ligula sit amet nibh bibendum congue.
+Articletext: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht naar "lorem ipsum" ontsluit veel websites die nog in aanbouw zijn. Verscheidene versies hebben zich ontwikkeld in de loop van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).<br><br>Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters bestaat, in tegenstelling tot "Hier uw tekst, hier uw tekst" wat het tot min of meer leesbaar nederlands maakt. Veel desktop publishing pakketten en web pagina editors gebruiken tegenwoordig Lorem Ipsum als hun standaard model tekst, en een zoekopdracht naar "lorem ipsum" ontsluit veel websites die nog in aanbouw zijn. Verscheidene versies hebben zich ontwikkeld in de loop van de jaren, soms per ongeluk soms expres (ingevoegde humor en dergelijke).
 
 ----
 
@@ -10,7 +10,9 @@ Workshop:
 
 ----
 
-Related: 
+Related:
+
+- nieuws/test-article
 
 ----
 
@@ -18,10 +20,12 @@ Date: 2021-12-06
 
 ----
 
-Author:
-
-- LKWXRzU2
+Author: 
 
 ----
 
 Tags: Kombucha
+
+----
+
+Blogtext: Nunc accumsan venenatis velit. Ut convallis nisi porttitor dignissim tristique. Nunc a lectus sodales, fringilla magna nec, ultrices diam.  Nulla id malesuada nunc, ac sollicitudin risus. Sed convallis sapien id lacinia ornare. Nullam vel fringilla ipsum. Curabitur vestibulum tempus mi. Nullam posuere dui eu risus efficitur, sit amet porta purus pretium. Curabitur euismod porta odio, quis sodales nisl egestas in.  Vivamus elementum vehicula nulla id imperdiet. Quisque at ligula sit amet nibh bibendum congue.
