@@ -1,0 +1,6 @@
+type: pages
+headline: project
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: project
+empty: No machines yet
+sortBy: date desc
