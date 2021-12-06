@@ -28,18 +28,19 @@
             <h2 class="investigations-overview__title h2"><?= $page->investigationsBiolabTitle() ?></h2>
         <?php endif; ?>
 
-        <?php $investigations = $page->investigations()->toStructure(); ?>
+        
+        <?php $investigations = $page->children(); ?>
         <?php foreach($investigations as $investigation): ?>
 
             <div class="investigation-item flex-row-desktop">
-                <?php if($image = $investigation->image()->toFile()): ?>
-                    <img class="investigation-item__img img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
-                <?php endif; ?>
+
+                    <img class="investigation-item__img img" src="<?= $investigation->image()->url() ?>" alt="<?= $investigation->image()->alt() ?>">
+
 
                 <div>
                     <h3 class="investigation-item__title h3"><?= $investigation->title() ?></h3>
                     <p class="investigation-item__paragraph p"><?= $investigation->paragraph() ?></p>
-                    <a class="investigation-item__button button-small" href="#">Meer over dit onderzoek</a>
+                    <a class="investigation-item__button button-small" href="<?= $investigation->url()?>">Meer over dit onderzoek</a>
                 </div>
             </div>
 
