@@ -1,0 +1,6 @@
+type: pages
+headline: Investigations
+info: "{{ page.date.toDate('d.m.Y') }}"
+template: investigation
+empty: No categories yet
+sortBy: date desc

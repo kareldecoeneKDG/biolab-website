@@ -1,0 +1,31 @@
+title: Category
+
+columns:
+  left:
+    width: 1/3
+    sections:
+      drafts:
+        extends: sections/project
+        headline: Drafts
+        status: draft
+
+      unlisted:
+        extends: sections/project
+        headline: In Review
+        status: unlisted
+
+      listed:
+        extends: sections/project
+        headline: Published
+        status: listed
+
+  right:
+    width: 2/3
+    fields:
+      paragraph:
+        label: paragraph
+        type: writer
+        inline: true
+      image:
+        type: files
+        max: 1

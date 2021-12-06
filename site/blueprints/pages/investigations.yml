@@ -4,7 +4,6 @@ tabs:
   onderzoeken:
     icon: text
     columns:
-
       left:
         width: 1/2
         sections:
@@ -18,14 +17,11 @@ tabs:
             headline: In Review
             status: unlisted
 
-      right:
-        width: 1/2
-        sections:
           listed:
             extends: sections/investigations
             headline: Published
             status: listed
-  
+
   content:
     icon: dashboard
     fields:
@@ -40,19 +36,7 @@ tabs:
         label: Geen labo image
         type: files
         max: 1
-      
+
       investigationsBiolabTitle:
         label: Onderzoeken Biolab titel
         type: text
-      investigations:
-        label: Onderzoeken
-        type: structure
-        fields:
-          image:
-            type: files
-            max: 1
-          title:
-            type: text
-          paragraph:
-            type: writer
-            inline: true

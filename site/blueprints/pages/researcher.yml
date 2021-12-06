@@ -1,0 +1,19 @@
+title: researcher
+
+columns:
+  - width: 1/2
+    fields:
+      name:
+        label: name
+        type: text
+      email:
+        label: email
+        type: text
+
+  - width: 1/2
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
