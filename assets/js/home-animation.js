@@ -1,5 +1,5 @@
 const homeAnimation = () => {
-    const texts = ["learn", "make", "share"];
+    const texts = ["circulair", "hands_on", "opwaarderen"];
 
     // count how many words = index from texts
     let count = 0;
