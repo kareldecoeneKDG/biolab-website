@@ -9,4 +9,6 @@
     <img src="<?= $page->image()->url()?>"/>
 
 </div>
+
+
 <?php snippet('general/footer')?>
