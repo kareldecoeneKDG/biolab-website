@@ -84,7 +84,7 @@
                     <p class="p"><?= $page->synergyFablabText() ?></p>
                 <?php endif; ?>
 
-                <a href="fablab.karel.decoene.nxtmediatech.eu" class="introduction__button button-small">Bezoek FabLab website</a>
+                <a href="https://fablab.karel.decoene.nxtmediatech.eu" class="introduction__button button-small">Bezoek FabLab website</a>
 
 
 

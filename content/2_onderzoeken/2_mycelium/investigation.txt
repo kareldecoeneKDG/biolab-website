@@ -1,0 +1,11 @@
+Title: Mycelium
+
+----
+
+Paragraph: Ook de productie van bioleder vanuit mycelium wordt onderzocht.  Dierlijk leder kampt met een aantal duurzaamheidsproblemen. Het wordt gemaakt van dierenhuid, meestal van de koe, en hangt daarom natuurlijk samen met de veeteelt. De problemen rond duurzaamheid van deze sector zijn bekend; veeteelt stoot veel broeikasgassen uit, veroorzaakt veel dierlijk leed en bij het verwerken van dierenhuiden tot leder worden verschillende chemische toxische stoffen gebruikt. Deze worden niet altijd duurzaam verwerkt en onschadelijk gemaakt, dikwijls komen deze stoffen in water en bodem terecht.
+
+----
+
+Image:
+
+- mycelium.png

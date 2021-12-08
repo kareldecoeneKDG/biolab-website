@@ -34,14 +34,14 @@
         <?php // SOCIAL MEDIA PREVIEWS ?>
         <meta property="og:url" content="https://biolab.karel.decoene.nxtmediatech.eu">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="KdG BioLab - Make | Share | Learn">
-        <meta property="og:description" content="Het KdG FabLab is een maakplaats voor iedereen. Komt gerust een keer langs tijdens onze openingsuren!">
-        <meta property="og:image" content="https://fablab.karel.decoene.nxtmediatech.eu/assets/images/previewimages/facebook-preview-image.png">
+        <meta property="og:title" content="KdG BioLab - Circulair | Hands-on | Opwaarderen">
+        <meta property="og:description" content="Het KdG Biolab is een plek om innovatieve, duurzame en biochemische designprocessen uit te proberen! Stuur altijd eerst een mailtje alvorens je langskomt.">
+        <meta property="og:image" content="https://biolab.karel.decoene.nxtmediatech.eu/assets/images/previewimages/previewimage.png">
 
         <?php // TWITTER ?>
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="KdG FabLab - Make | Share | Learn" />
-        <meta name="twitter:site" content="fablabkareldecoenenxtmediatecheu" />
-        <meta name="twitter:creator" content="fablabkdg">
+        <meta name="twitter:title" content="KdG BioLab - Circulair | Hands-on | Opwaarderen" />
+        <meta name="twitter:site" content="biolabkareldecoenenxtmediatecheu" />
+        <meta name="twitter:creator" content="biolabkdg">
     </head>
     <body>

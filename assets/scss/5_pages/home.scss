@@ -96,6 +96,16 @@
     &__imagecontainer {
         display: none;
     }
+
+    &__image {
+        margin-top: 30px;
+        //padding-left: $margin-side-mobile;
+        //padding-right: $margin-side-mobile;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -124,6 +134,18 @@
         .flex-column {
             padding-left: $margin-side-tablet-portrait;
             padding-right: $margin-side-tablet-portrait;
+        }
+    }
+
+    .info {
+        &__image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        &__title {
+            margin-right: 47%;
         }
     }
 }
@@ -161,6 +183,14 @@
     }
 
     .info {
+        &__title {
+            margin-right: 59%;
+        }
+
+        &__image {
+            display: none;
+        }
+
         &__imagecontainer {
             display: inline-block;
         }
@@ -264,6 +294,10 @@
     .info {
         &__imagecontainer {
             margin-right: $margin-side-desktop;
+        }
+
+        &__title {
+            margin-top: 100px;
         }
     }
 }

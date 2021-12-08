@@ -98,7 +98,8 @@
 @media only screen and (min-width: $desktop-hd) {
     .investigation-item {
         &__img {
-            height: 375px;
+            height: 350px;
+            width: 70%;
         }
     }
 }
