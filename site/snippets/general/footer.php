@@ -239,7 +239,7 @@
 
         
 
-        <?= js('build/js/responsive-nav.js') ?>
-        <?= js('build/js/arrowShower.js') ?>
+        <?= js('build/js/general/responsive-nav.js') ?>
+        <?= js('build/js/general/arrowShower.js') ?>
     </body>
 </html>

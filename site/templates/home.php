@@ -69,6 +69,6 @@
 
 <?php snippet('general/footer')?>
 
-<?= js('build/js/tabbar.js') ?>
-<?= js('build/js/home-animation.js') ?>
-<?= js('build/js/menuObserver.js') ?>
+<?= js('build/js/general/tabbar.js') ?>
+<?= js('build/js/home/home-animation.js') ?>
+<?= js('build/js/home/menuObserver.js') ?>

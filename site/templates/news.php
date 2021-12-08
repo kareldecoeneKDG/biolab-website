@@ -82,4 +82,4 @@
 
 <?php snippet('general/footer')?>
 
-<?=js('build/js/taginactive.js')?>
+<?php //js('build/js/taginactive.js') ?>
