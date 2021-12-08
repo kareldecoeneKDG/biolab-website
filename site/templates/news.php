@@ -45,7 +45,7 @@
                     <div class="text-wrapper-mobile">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?=$article->title()->html()?></h2>
                         <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?=$article->random()->excerpt(70)?></p>
-                    </div>
+                    </div> 
                 </div>
 
                 <div class="blog-wrapper__blog-overview__text-wrapper">
