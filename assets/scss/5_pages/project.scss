@@ -1,0 +1,73 @@
+.content-article {
+    .flex-row-desktop {
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .flex-row-desktop-reverse {
+        margin-top: 50px;
+    }
+
+    &__document {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    &__document:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    &__text-wrapper {
+        &__p {
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+
+    &__image {
+        width: 100%;
+    }
+}
+
+
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .content-article {
+        &__image {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        &__text-wrapper {
+            &__p {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .content-project {
+        width: 100% !important;
+        padding-right: 0;
+
+        .flex-row-desktop {
+            margin-top: 100px;
+        }
+    
+        .flex-row-desktop-reverse {
+            margin-top: 100px;
+        }
+    }
+
+    .content-article {
+        &__image {
+            height: 350px;
+        }
+    }
+}
