@@ -17,7 +17,9 @@
         foreach ($projects as $project) : ?>
             <project class="blog-wrapper__blog-overview">
                 <div>
-                    <img class="blog-wrapper__blog-overview__img img" src="<?= $project->image()->url() ?>" alt="<?= $project->image()->alt() ?>">
+                    <?php if($img = $project->image()): ?>
+                        <img class="blog-wrapper__blog-overview__img img" src="<?= $img->url() ?>" alt="<?= $img->alt() ?>">
+                    <?php endif; ?>
 
                     <div class="blog-wrapper__blog-overview__text-wrapper">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?= $project->title()->html() ?></h2>
@@ -38,7 +40,9 @@
         foreach ($projects as $project) : ?>
             <project class="blog-wrapper__blog-overview">
                 <div>
-                    <img class="blog-wrapper__blog-overview__img img" src="<?= $project->image()->url() ?>" alt="<?= $project->image()->alt() ?>">
+                    <?php if($img = $project->image()): ?>
+                        <img class="blog-wrapper__blog-overview__img img" src="<?= $img->url() ?>" alt="<?= $img->alt() ?>">
+                    <?php endif; ?>
 
                     <div class="blog-wrapper__blog-overview__text-wrapper">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?= $project->title()->html() ?></h2>

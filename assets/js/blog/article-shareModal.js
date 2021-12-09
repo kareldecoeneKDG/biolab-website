@@ -2,6 +2,9 @@ const showShareModal = () => {
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("myBtn");
     var close = document.getElementsByClassName("close")[0];
+    var copyBtn = document.getElementById("url");
+    
+    var urlContainer = document.querySelector('.modal-content__linksection__link');
 
     // When the user clicks on the share link, open the modal
     btn.onclick = function () {
@@ -28,6 +31,8 @@ const showShareModal = () => {
         document.execCommand('copy');
         inputc.parentNode.removeChild(inputc);
     }
+
+    copyBtn.addEventListener("click", copyToClipboard(urlContainer.innerHTML));
 }
 
 showShareModal();

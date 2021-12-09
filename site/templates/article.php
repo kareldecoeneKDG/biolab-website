@@ -10,7 +10,9 @@
     <section class="content-article">
         <h1 class="content-article__title h1"><?=$page->title()->html()?></h1>
 
-        <img class="content-article__image" src="<?=$page->image()->url()?>" alt="<?=$page->image()->alt()?>">
+        <?php if($image = $page->image()): ?>
+            <img class="content-article__image" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+        <?php endif; ?>
 
 
 
@@ -35,7 +37,7 @@
                     <?php $url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
                     <p class="modal-content__linksection__link"><?= $url ?></p>
 
-                    <button id="url" class="modal-content__linksection__link__copy-button" onclick="copyToClipboard()"><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
+                    <button id="url" class="modal-content__linksection__link__copy-button" <?php //onclick="copyToClipboard()" ?>><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
 
                     <div class="modal-copied">
                         <div class="modal-content-copied">
@@ -73,13 +75,16 @@
                 <?php foreach ($related as $article): ?>
                     <article class="related-articles__items__blogpost blog-wrapper__blog-overview">
                         <a class="related-articles__items__blogpost__link article-related" href="<?=$article->url()?>">
-                            <img class="related-articles__items__blogpost__link__img img-related" src="<?=$article->image()->url()?>" alt="Article preview image">
+
+                            <?php if($img = $article->image()): ?>
+                                <img class="related-articles__items__blogpost__link__img img-related" src="<?=$img->url()?>" alt="<?= $img->alt() ?>">
+                            <?php endif; ?>
+
                             <h2 class="related-articles__items__blogpost__link__title h2-related h2"><?=$article->title()->html()?></h2>
                         </a>
                     </article>
                 <?php endforeach;?>
             </div>
-
         </section>
     <?php endif;?>
 </div>

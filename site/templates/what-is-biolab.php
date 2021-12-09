@@ -109,7 +109,7 @@
                         <?php foreach ($employees as $employee) : ?>
                             <div class="employee flex-row">
                                 <?php if ($employeeImg = $employee->image()->toFile()) : ?>
-                                    <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="Picture employee FabLab">
+                                    <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="<?= $employeeImg->alt() ?>">
                                 <?php endif; ?>
 
                                 <div>
