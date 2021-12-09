@@ -12,7 +12,7 @@
             <?php endif; ?>
 
             <?php if ($page->whatIsFablabButtonText()->isNotEmpty()) : ?>
-                <a class="introduction__content__button button-small button-home" href="<?php //$pages->find('what-is-fablab')->url() ?>"><?= $page->whatIsFablabButtonText() ?></a>
+                <a class="introduction__content__button button-small button-home" href="<?= $pages->find('wat-is-biolab')->url() ?>"><?= $page->whatIsFablabButtonText() ?></a>
             <?php endif; ?>
         </div>
 
@@ -46,14 +46,6 @@
 
 <?php //WORKING FABLAB ?>
 <section class="info">
-
-    <?php //IMAGE MOBILE ?>
-    <?php /* <div class="info__banner banner-biolab banner-home">
-        <?php if ($page->workingFablabTitle()->isNotEmpty()) : ?>
-            <h2 class="info__banner__title h2-home h2"><?= $page->workingFablabTitle() ?></h2>
-        <?php endif; ?>
-    </div> */ ?>
-
     <img class="info__image img" src="assets/images/biolab.png" alt="tekst">
 
     <h2 class="info__title h2-home h2"><?= $page->workingFablabTitle() ?></h2>
@@ -67,7 +59,7 @@
             <?php endif; ?>
 
             <?php if ($page->workingFablabButtonText()->isNotEmpty()) : ?>
-                <a class="info__content__button button-small button-home" href="<?php //$pages->find('house-rules')->url() ?>"><?= $page->workingFablabButtonText() ?></a>
+                <a class="info__content__button button-small button-home" href="<?= $pages->find('onderzoeken')->url() ?>"><?= $page->workingFablabButtonText() ?></a>
             <?php endif; ?>
         </div>
 

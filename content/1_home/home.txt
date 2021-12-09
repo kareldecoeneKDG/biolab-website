@@ -12,7 +12,7 @@ Messagetitle: Belangrijk
 
 ----
 
-Messagetext: Gelieve een mail te sturen alvorens Biolab te bezoeken.
+Messagetext: Hier kan je gemakkelijk belangrijke info meegeven aan je bezoekers.
 
 ----
 

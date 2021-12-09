@@ -36,7 +36,7 @@ Employees:
   image:
     - hilde.jpg
   name: De Bondt Hilde
-  function: Functie
+  function: Head of BioLab
   tel: 0458 56 26 23
   email: hilde.debondt@kdg.be
   biography: >

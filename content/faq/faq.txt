@@ -5,7 +5,7 @@ Title: Faq
 Faqs:
 
 - 
-  question: Vraag1
+  question: Hoe Biolab bezoeken
   answer: >
     Het is al geruime tijd een bekend
     gegeven dat een lezer, tijdens het
