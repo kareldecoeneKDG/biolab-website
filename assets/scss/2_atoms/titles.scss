@@ -13,6 +13,7 @@
     font-size: $h2-font-size-mobile;
     font-weight: $h2-font-weight;
     margin: $h2-margin-mobile;
+    margin-top: 50px;
 }
 
 .h2-home {
@@ -71,6 +72,7 @@
     &__title {
         margin-right: 37%;
         margin-bottom: 30px;
+        margin-top: 50px !important;
     }
 
     &__openhours {
@@ -81,6 +83,10 @@
 }
 
 .info {
+    &__title {
+        margin-top: 50px;
+    }
+
     .banner-fablab {
         h2 {
             margin-right: 32%;

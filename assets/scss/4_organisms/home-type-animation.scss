@@ -104,6 +104,10 @@
                 .intro {
                     left: $margin-side-hd;
                 }
+
+                .typing {
+                    font-size: 50px;
+                }
             }
         }
     }
@@ -129,6 +133,10 @@
             &__typing-animation {
                 .intro {
                     left: $margin-side-4k;
+                }
+
+                .typing {
+                    font-size: 70px;
                 }
             }
         }

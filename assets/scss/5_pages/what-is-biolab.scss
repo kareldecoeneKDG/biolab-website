@@ -6,6 +6,7 @@
 }
 
 .team {
+    margin-top: 50px;
     background-color: $neutrals-0;
     border: 2px solid $primary;
     padding: 55px 16px 20px 16px;
@@ -22,8 +23,12 @@
     }
 
     &__container {
-        .employee:last-of-type {
+        .employee {
             margin-top: 20px;
+        }
+
+        .employee:first-of-type {
+            margin-top: 0;
         }
         
         div > div {

@@ -2,9 +2,8 @@ const showShareModal = () => {
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("myBtn");
     var close = document.getElementsByClassName("close")[0];
-    var copyBtn = document.getElementById("url");
-    
-    var urlContainer = document.querySelector('.modal-content__linksection__link');
+
+    var copyButton = document.getElementById("url");
 
     // When the user clicks on the share link, open the modal
     btn.onclick = function () {
@@ -23,16 +22,17 @@ const showShareModal = () => {
     }
 
     // To copy the url
-    function copyToClipboard(text) {
-        var inputc = document.body.appendChild(document.createElement("input"));
-        inputc.value = window.location.href;
-        inputc.focus();
-        inputc.select();
-        document.execCommand('copy');
-        inputc.parentNode.removeChild(inputc);
+    function copyToClipboard() {
+        var text = window.location.href;
+
+        navigator.clipboard.writeText(text).then(function () {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function (err) {
+            console.error('Async: Could not copy text: ', err);
+        });
     }
 
-    copyBtn.addEventListener("click", copyToClipboard(urlContainer.innerHTML));
+    copyButton.addEventListener("click", copyToClipboard());
 }
 
 showShareModal();
