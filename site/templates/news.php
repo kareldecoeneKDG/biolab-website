@@ -23,7 +23,7 @@
 
         <?php //BUTTON TO DELETE ACTIVE TAGS 
         ?>
-        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/blog">Remove tags</a>
+        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/nieuws">Remove tags</a>
     </div>
 
 

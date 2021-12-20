@@ -18,6 +18,10 @@
         <?php // FONT AWESOME ?>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <?php //LIGHTBOX ?>
+        <!-- <link href="build/css/lightbox.min.css" rel="stylesheet" /> -->
+        <?= css('build/css/lightbox.css') ?>
+
         <?php // STYLESHEETS ?>
         <?= css('build/css/style.css') ?>
 
