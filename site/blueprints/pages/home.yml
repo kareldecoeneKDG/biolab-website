@@ -83,18 +83,29 @@ columns:
             max: 1
           url:
             type: url
-      fablabs:
-        label: Fablabs
+      inspirations:
+        label: Inspiraties
         type: structure
         columns:
-          image:
-            width: 1/3
+          icon:
+            width: 1/4
+          anchor:
+            width: 1/4
           url:
-            width: 2/3
+            width: 2/4
         fields:
-          image:
-            type: files
-            max: 1
+          icon:
+            type: select
+            options:
+              recycle: Recycle
+              circular: Circulair
+              research: Research
+              event: Event
+              labo: Labo
+              ecological: Ecologisch
+              link: Link
+          anchor:
+            type: text
           url:
             type: url
 

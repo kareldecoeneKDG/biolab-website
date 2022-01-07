@@ -91,7 +91,24 @@ Manufacturers:
 
 ----
 
-Fablabs: 
+Inspirations:
+
+- 
+  icon: recycle
+  anchor: Recycle item
+  url: https://www.facebook.com/
+- 
+  icon: circular
+  anchor: Nog een test
+  url: https://www.kdg.be/
+- 
+  icon: research
+  anchor: Dit is een project
+  url: https://www.google.com
+- 
+  icon: ecological
+  anchor: Chemisch link
+  url: https://www.linkedin.com/feed/
 
 ----
 
@@ -100,3 +117,7 @@ Partners:
 - kdg_h_closed_black_srgb.png
 - >
   provincie_antwerpen_logo_rgb_nobackground.png
+
+----
+
+Fablabs: 

@@ -1,6 +1,5 @@
 <?php
 $manufacturers = $page->manufacturers()->toStructure();
-$fablabs = $page->fablabs()->toStructure();
 ?>
 
 <div class="tabscontainer home-tabscontainer">
@@ -33,16 +32,9 @@ $fablabs = $page->fablabs()->toStructure();
                 <?php endforeach;?>
             </div>
 
-            <div class="tabscontainer__tabs__tabbody__item">
-                <?php foreach ($fablabs as $fablab): ?>
-                    <div>
-                        <?php if ($fablabimage = $fablab->image()->toFile()): ?>
-                            <a href="<?=$fablab->url()?>" rel="nofollow" target="_blank">
-                                <img class="tabscontainer__tabs__tabbody__item__img" src="<?=$fablabimage->url()?>" alt="<?=$fablabimage->alt()?>">
-                            </a>
-                        <?php endif;?>
-                    </div>
-                <?php endforeach;?>
+            <div class="tabscontainer__tabs__tabbody__item inspirations">
+                <!-- include inspirations -->
+                <?php snippet('home/inspirations') ?>
             </div>
         </div>
     </div>
