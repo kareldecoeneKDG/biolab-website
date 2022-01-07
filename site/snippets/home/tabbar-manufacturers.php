@@ -9,7 +9,7 @@ $manufacturers = $page->manufacturers()->toStructure();
                 Manufacturers
             </div>
             <div class="tabscontainer__tabs__tabheader__item">
-                Fablabs
+                Inspiratie
             </div>
         </div>
 
