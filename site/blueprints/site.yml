@@ -54,22 +54,13 @@ tabs:
           openhoursTitle:
             label: Openingsuren titel
             type: text
-          openhoursKdGTitle:
-            label: Openingsuren intern titel
-            type: text
           openhoursKdGText:
             label: Openingsuren intern uren
             type: text
           openhoursExternTitle:
             label: Openingsuren extern titel
             type: text
-          openhoursExternText:
-            label: Openingsuren extern uren
-            type: text
 
-          navigationTitle:
-            label: Navigatie titel
-            type: text
           navigationLinks:
             label: Menu items
             type: structure
@@ -86,9 +77,6 @@ tabs:
                 label: Pagina
                 type: pages
           
-          infoTitle:
-            label: Info titel
-            type: text
           infoLinks:
             label: Andere pagina's
             type: structure
@@ -114,12 +102,7 @@ tabs:
   settings:
     icon: cog
     fields:
-      fablabLogo:
-        label: Fablab logo
-        type: files
-        max: 1
-
-      flagImage:
-        label: Vlaggetje taal
+      biolabLogo:
+        label: Biolab logo
         type: files
         max: 1

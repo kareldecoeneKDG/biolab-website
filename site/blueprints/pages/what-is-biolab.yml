@@ -5,18 +5,18 @@ columns:
     sections:
     fields:
       whatIsFablabTitle:
-        label: Wat is Fablab titel
+        label: Wat is Biolab titel
         type: text
       whatIsFablabText:
-        label: Wat is Fablab text
+        label: Wat is Biolab text
         type: writer
         inline: true
       
       wordFablabTitle:
-        label: Van waar komt woord Fablab titel
+        label: Van waar komt woord Biolab titel
         type: text
       wordFablabText:
-        label: Van waar komt het woord Fablab
+        label: Van waar komt het woord Biolab
         type: writer
         inline: true
 

@@ -50,12 +50,7 @@
 
 
 
-        <div class="lightbox">
-            <a href="../../assets/images/image1.jpg" data-lightbox="roadtrip" data-title="My caption1"><img src="../../assets/images/image1.jpg"></a>
-            <a href="../../assets/images/image2.jpg" data-lightbox="roadtrip" data-title="My caption2"><img src="../../assets/images/image2.jpg"></a>
-            <a href="../../assets/images/image3.jpg" data-lightbox="roadtrip" data-title="My caption3"><img src="../../assets/images/image3.jpg"></a>
-            <a href="../../assets/images/image4.jpg" data-lightbox="roadtrip" data-title="My caption4"><img src="../../assets/images/image4.jpg"></a>
-        </div>
+        <?php snippet('home/carousel') ?>
     </section>
 </div>
 

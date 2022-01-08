@@ -32,6 +32,20 @@ columns:
         label: Scriptie
         type: files
         max: 1
+
+      photos:
+        label: Fotos
+        type: structure
+        max: 8
+        fields:
+          photo:
+            label: Creatie foto
+            type: files
+            max: 1
+            required: true
+          photographer:
+            label: Creations creator
+            type: text
         
   - width: 1/2
     sections:

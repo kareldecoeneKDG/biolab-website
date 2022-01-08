@@ -17,14 +17,14 @@ columns:
         inline: true
 
       whatIsFablabTitle:
-        label: Wat is Fablab titel
+        label: Wat is Biolab titel
         type: text
       whatIsFablabText:
-        label: Wat is Fablab paragraaf
+        label: Wat is Biolab paragraaf
         type: writer
         inline: true
       whatIsFablabButtonText:
-        label: Wat is Fablab knoptekst
+        label: Wat is Biolab knoptekst
         type: text
 
       openhoursKdGTitle:
@@ -33,41 +33,27 @@ columns:
       openhoursKdGText:
         label: Openingsuren intern uren
         type: text
-      openhoursExternTitle:
-        label: Openingsuren extern titel
-        type: text
       openhoursExternText:
         label: Openingsuren extern uren
         type: text
 
       workingFablabTitle:
-        label: Werking Fablab titel
+        label: Werking Biolab titel
         type: text
       workingFablabText:
-        label: Werking Fablab paragraaf
+        label: Werking Biolab paragraaf
         type: writer
         inline: true
       workingFablabButtonText:
-        label: Werking Fablab knoptekst
+        label: Werking Biolab knoptekst
         type: text
       workingFablabImage:
-        label: Werking Fablab image
+        label: Werking Biolab image
         type: files
 
-      biolabTitle:
-        label: Biolab titel
-        type: text
-      biolabText:
-        label: Biolab paragraaf
-        type: writer
-        inline: true
-      biolabButtonText:
-        label: Biolab knoptekst
-        type: text
-      biolabImage:
-        label: Biolab image
-        type: files
-
+  - width: 1/2
+    sections:
+    fields:
       manufacturers:
         label: Manufacturers
         type: structure
@@ -108,8 +94,6 @@ columns:
             type: text
           url:
             type: url
-
-
       partners:
         label: Partner logo's
         type: files

@@ -2,35 +2,67 @@ title: Contact
 options:
   changeSlug: false
 
-columns:
-  - width: 1/2
-    sections:
-    fields:
-      pageTitle:
-        label: Pagina Titel
-        type: text
-      address:
-        label: Adres
-        type: text
-      email:
-        label: Email
-        type: text
-      
-      reserveTitle:
-        label: Reserveren titel
-        type: text
-      reserveText:
-        label: Reserveren paragraaf
-        type: text
+tabs:
+  content:
+    label: Content
+    icon: dashboard
+    columns:
+      - width: 1/2
+        sections:
+        fields:
+          pageTitle:
+            label: Pagina Titel
+            type: text
+          
+          reserveTitle:
+            label: Reserveren titel
+            type: text
+          reserveText:
+            label: Reserveren paragraaf
+            type: text
 
-      generalTitle:
-        label: Algemene info & vragen titel
-        type: text
-      generalText:
-        label: Algemene info & vragen paragraaf
-        type: writer
-        inline: true
-        
+          generalTitle:
+            label: Algemene info & vragen titel
+            type: text
+          generalText:
+            label: Algemene info & vragen paragraaf
+            type: writer
+            inline: true
+
+      - width: 1/2
+        sections:
+        fields:
+          accessibility:
+            label: Bereikbaarheid
+            type: structure
+            default:
+              - vehicle: fiets
+              - vehicle: tram
+              - vehicle: bus
+              - vehicle: auto
+            columns:
+              vehicle:
+                width: 1/4
+              description:
+                width: 3/4
+            fields:
+              vehicle:
+                label: Vervoersmiddel
+                type: select
+                options:
+                  - Fiets
+                  - Trein
+                  - Bus
+                  - Auto
+              description:
+                label: Beschrijving
+                type: writer
+                inline: true
+
+  employees:
+    label: Werknemers
+    icon: users
+    fields:
       employees:
         label: Werknemers
         type: structure
@@ -46,7 +78,7 @@ columns:
           email:
             width: 1/4
           biography:
-            width: 1/4
+            width: 2/3
 
         fields:
           image:
@@ -62,55 +94,3 @@ columns:
           biography:
             type: writer
             inline: true
-        
-      accessibility:
-        label: Bereikbaarheid
-        type: structure
-        default:
-          - vehicle: fiets
-          - vehicle: tram
-          - vehicle: bus
-          - vehicle: auto
-        columns:
-          vehicle:
-            width: 1/4
-          description:
-            width: 3/4
-        fields:
-          vehicle:
-            label: Vervoersmiddel
-            type: select
-            options:
-              - Fiets
-              - Trein
-              - Bus
-              - Auto
-          description:
-            label: Beschrijving
-            type: writer
-            inline: true
-
-  - width: 1/2
-    sections:
-    fields:
-      socials:
-        label: Socials
-        type: structure
-        columns:
-          social:
-            width: 1/4
-          url:
-            width: 1/2
-        fields:
-          social:
-            type: select
-            options:
-              facebook: Facebook
-              instagram: Instagram
-              linkedin: LinkedIn
-              youtube: YouTube
-              pinterest: Pinterest
-              reddit: Reddit
-              kdg: KdG Website
-          url:
-            type: url

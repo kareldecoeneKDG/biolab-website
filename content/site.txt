@@ -101,9 +101,13 @@ Provinceantwerpimage:
 
 ----
 
-Fablablogo:
+Biolablogo:
 
 - logo-biolab.png
+
+----
+
+Fablablogo: - logo-biolab.png
 
 ----
 
