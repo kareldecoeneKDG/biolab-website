@@ -2,7 +2,7 @@ Title: Wat is Biolab
 
 ----
 
-Whatisfablabtitle: Wat is Biolab
+Whatisfablabtitle: Wat is Biolab?
 
 ----
 
@@ -18,7 +18,7 @@ Wordfablabtext: Biotechnologie is de wetenschap en technologie van het gebruik v
 
 ----
 
-Synergyfablabtitle: Bioprocestechnologie in synergie met het Fablab
+Synergyfablabtitle: Bioprocestechnologie in synergie met het FabLab
 
 ----
 

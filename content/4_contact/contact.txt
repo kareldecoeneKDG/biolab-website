@@ -6,14 +6,6 @@ Pagetitle: Contacteer ons
 
 ----
 
-Address: Salesianenlaan 90, 2660 Hoboken
-
-----
-
-Email: biolab@kdg.be
-
-----
-
 Reservetitle: Openingsuren
 
 ----
@@ -30,13 +22,39 @@ Generaltext:
 
 ----
 
+Accessibility:
+
+- 
+  vehicle: Fiets
+  description: 'Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320). Meer info: www.velo-antwerpen.be'
+- 
+  vehicle: Trein
+  description: >
+    Station Antwerpen-Zuid ligt op 4km van
+    de campus. Check de dienstregeling van
+    de NMBS! Je stapt op station
+    Antwerpen-Zuid best over op de fiets of
+    openbaar vervoer.
+- 
+  vehicle: Bus
+  description: 'In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen. De **dichtstbijzijnde halte** bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen. De bussen en tram die u van daar kan nemen zijn volgende: Tram 10: Wijnegem – P+R Schoonselhof Bus 33: Hoboken – Wilrijk – Merksem – Ekeren Bus 290: Boom – Niel – Antwerpen Bus 295: Boom – Predikherenvelden – Niel – Antwerpen www.delijn.be'
+- 
+  vehicle: Auto
+  description: >
+    Er is voldoende parkeerruimte op en in
+    de buurt van de campus. Deze campus
+    bevindt zich momenteel niet binnen de
+    lage-emissiezone van de stad Antwerpen.
+
+----
+
 Employees:
 
 - 
   image:
     - hilde.jpg
   name: De Bondt Hilde
-  function: Head of BioLab
+  function: Head of Biolab
   tel: 0458 56 26 23
   email: hilde.debondt@kdg.be
   biography: >
@@ -83,29 +101,11 @@ Employees:
 
 ----
 
-Accessibility:
+Address: Salesianenlaan 90, 2660 Hoboken
 
-- 
-  vehicle: Fiets
-  description: 'Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320). Meer info: www.velo-antwerpen.be'
-- 
-  vehicle: Trein
-  description: >
-    Station Antwerpen-Zuid ligt op 4km van
-    de campus. Check de dienstregeling van
-    de NMBS! Je stapt op station
-    Antwerpen-Zuid best over op de fiets of
-    openbaar vervoer.
-- 
-  vehicle: Bus
-  description: 'In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen. De **dichtstbijzijnde halte** bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen. De bussen en tram die u van daar kan nemen zijn volgende: Tram 10: Wijnegem – P+R Schoonselhof Bus 33: Hoboken – Wilrijk – Merksem – Ekeren Bus 290: Boom – Niel – Antwerpen Bus 295: Boom – Predikherenvelden – Niel – Antwerpen www.delijn.be'
-- 
-  vehicle: Auto
-  description: >
-    Er is voldoende parkeerruimte op en in
-    de buurt van de campus. Deze campus
-    bevindt zich momenteel niet binnen de
-    lage-emissiezone van de stad Antwerpen.
+----
+
+Email: biolab@kdg.be
 
 ----
 

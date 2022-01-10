@@ -31,7 +31,7 @@
                 <?php //TEAM FABLAB MOBILE ?>
                 <div class="team">
                     <div class="team__titlecontainer">
-                        <h2 class="team__titlecontainer__title h2">Team Fablab</h2>
+                        <h2 class="team__titlecontainer__title h2">Team Biolab</h2>
                     </div>
 
 

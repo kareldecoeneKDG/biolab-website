@@ -31,23 +31,11 @@ Openhourstitle: Openingsuren
 
 ----
 
-Openhourskdgtitle: 
-
-----
-
-Openhourskdgtext: Ma - do: 9.00u - 16.00u
+Openhourskdgtext: ma - do: 9.00u - 16.00u
 
 ----
 
 Openhoursexterntitle: Gelieve een mail te sturen alvorens Biolab te bezoeken.
-
-----
-
-Openhoursexterntext: 
-
-----
-
-Navigationtitle: 
 
 ----
 
@@ -69,10 +57,6 @@ Navigationlinks:
   anchor: Contact
   page:
     - contact
-
-----
-
-Infotitle: 
 
 ----
 
@@ -104,6 +88,22 @@ Provinceantwerpimage:
 Biolablogo:
 
 - logo-biolab.png
+
+----
+
+Openhourskdgtitle: 
+
+----
+
+Openhoursexterntext: 
+
+----
+
+Navigationtitle: 
+
+----
+
+Infotitle: 
 
 ----
 

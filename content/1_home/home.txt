@@ -36,11 +36,7 @@ Openhourskdgtext: Ma - do: 9.00u - 16.00u
 
 ----
 
-Openhoursexterntitle: 
-
-----
-
-Openhoursexterntext: Gelieve een mail te sturen alvorens BioLab te bezoeken.
+Openhoursexterntext: Gelieve een mail te sturen alvorens Biolab te bezoeken.
 
 ----
 
@@ -59,22 +55,6 @@ Workingfablabbuttontext: Meer over onderzoeken
 Workingfablabimage:
 
 - onderzoeken.webp
-
-----
-
-Biolabtitle: 
-
-----
-
-Biolabtext: 
-
-----
-
-Biolabbuttontext: 
-
-----
-
-Biolabimage: 
 
 ----
 
@@ -117,6 +97,26 @@ Partners:
 - kdg_h_closed_black_srgb.png
 - >
   provincie_antwerpen_logo_rgb_nobackground.png
+
+----
+
+Openhoursexterntitle: 
+
+----
+
+Biolabtitle: 
+
+----
+
+Biolabtext: 
+
+----
+
+Biolabbuttontext: 
+
+----
+
+Biolabimage: 
 
 ----
 
