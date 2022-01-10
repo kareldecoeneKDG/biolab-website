@@ -32,7 +32,7 @@ Openhourskdgtitle: Openingsuren
 
 ----
 
-Openhourskdgtext: Ma - do: 9.00u - 16.00u
+Openhourskdgtext: ma - do: 9.00u - 16.00u
 
 ----
 
