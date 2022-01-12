@@ -102,7 +102,7 @@
             <div class="team-desktop">
                 <div>
                     <div class="team-desktop__titlecontainer">
-                        <h2 class="team-desktop__titlecontainer__title h2">Team Fablab</h2>
+                        <h2 class="team-desktop__titlecontainer__title h2">Team Biolab</h2>
                     </div>
 
                     <div class="team-desktop__container">

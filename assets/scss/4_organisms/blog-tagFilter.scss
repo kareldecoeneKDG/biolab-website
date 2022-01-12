@@ -1,9 +1,14 @@
 // MOBILE
 .container-blog {
     &__tag-filter {
-        overflow: auto;
-        white-space: nowrap;
         margin-bottom: 5px;
+
+        .tag-container {
+            &__tags {
+                overflow: auto;
+                white-space: nowrap;
+            }
+        }
     }
 }
 

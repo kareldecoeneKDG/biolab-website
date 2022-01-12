@@ -6,24 +6,28 @@
 
 
 <div class="container container-blog">
-    <h1 class="h1"><?= $page->Subtitle()->html() ?></h1>
+    <h1 class="h1">Blijf op de hoogte van activiteiten en releases!</h1>
 
     <div class="container-blog__tag-filter">
-        <?php //GET CURRENT URL 
-        ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
 
-        <?php foreach ($tags as $tag) : ?>
-            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {
-                                                                    echo ("active-tag");
-                                                                } ?>" href="<?= $url ?>/tag;<?php echo $tag ?>">
-                <?= html($tag) ?>
-            </a>
-        <?php endforeach ?>
+        <div class="tag-container">
+            <div class="tag-container__tags">
+                <?php foreach ($tags as $tag) : ?>
+                    <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {
+                                                                            echo ("active-tag");
+                                                                        } ?>" href="<?= $url ?>/tag;<?php echo $tag ?>">
+                        <?= html($tag) ?>
+                    </a>
+                <?php endforeach ?>
+            </div>
 
-        <?php //BUTTON TO DELETE ACTIVE TAGS 
-        ?>
-        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/nieuws">Remove tags</a>
+            <div class="tag-container__button">
+                <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/nieuws">Remove tags</a>
+            </div>
+        </div>
+
+
     </div>
 
 
@@ -65,7 +69,8 @@
 
 
 
-    <?php //ALL BLOGS DESKTOP ?>
+    <?php //ALL BLOGS DESKTOP 
+    ?>
     <div class="blog-wrapper-desktop">
         <?php foreach ($articles as $article) : ?>
             <article class="blog-wrapper__blog-overview">

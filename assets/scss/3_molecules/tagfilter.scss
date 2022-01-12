@@ -30,6 +30,8 @@
 }
 
 #remove-tag {
+    display: inline-block;
     background-color: $neutrals-10;
-    color: $primary
+    color: $primary;
+    margin-top: 5px;
 }
