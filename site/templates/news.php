@@ -9,25 +9,25 @@
     <h1 class="h1">Blijf op de hoogte van activiteiten en releases!</h1>
 
     <div class="container-blog__tag-filter">
+        <?php //GET CURRENT URL 
+        ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
 
         <div class="tag-container">
-            <div class="tag-container__tags">
-                <?php foreach ($tags as $tag) : ?>
-                    <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {
-                                                                            echo ("active-tag");
-                                                                        } ?>" href="<?= $url ?>/tag;<?php echo $tag ?>">
-                        <?= html($tag) ?>
-                    </a>
-                <?php endforeach ?>
+            <div class="tags">
+                              
+                    <?php foreach($tags as $tag): ?>
+                        
+                        <a class="container-blog__tag-filter__button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+                            <?= html($tag) ?>
+                        </a>
+                        <?php endforeach ?>
             </div>
 
             <div class="tag-container__button">
-                <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/nieuws">Remove tags</a>
+                <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://biolab.karel.decoene.nxtmediatech.eu/nieuws">Verwijder tags</a>
             </div>
         </div>
-
-
     </div>
 
 
