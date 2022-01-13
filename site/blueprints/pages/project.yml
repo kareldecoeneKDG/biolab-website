@@ -10,7 +10,7 @@ columns:
         layout: cards
         image:
           ratio: 1/1
-      pdf:
+       pdf:
         label: Pdf
         type: files
   - width: 1/2
