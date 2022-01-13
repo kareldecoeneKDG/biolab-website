@@ -4,12 +4,55 @@ const formValidation = () => {
     const email = document.getElementById("email");
     const message = document.getElementById("message");
 
+    const inputs = document.querySelectorAll('.contactform__field__input');
+
+
+
     form.addEventListener('submit', (e) => {
         e.preventDefault();
-        checkInputs();
+        //checkInputs();
+        dynamicCheckInputs();
     });
 
-    function checkInputs() {
+    
+    
+    function dynamicCheckInputs() {
+        //get the values of the inputs without any spaces etc.
+        const nameValue = name.value.trim();
+        const emailValue = email.value.trim();
+        const messageValue = message.value.trim();
+
+        if(nameValue !== '') {
+            setSuccesFor(name);
+        } else {
+            setErrorFor(name, 'Naam mag niet leeg zijn');
+        }
+
+        if(emailValue !== '') {
+            if(!isEmail(emailValue)) {
+                setErrorFor(email, 'Dit is geen geldig emailadres');
+            }
+            else {
+                setSuccesFor(email);
+            }
+        } else {
+            setErrorFor(email, 'Email mag niet leeg zijn');
+        }
+
+        if(messageValue !== '') {
+            setSuccesFor(message);
+        } else {
+            setErrorFor(message, 'Bericht mag niet leeg zijn');
+        }
+
+        name.addEventListener('input', dynamicCheckInputs);
+        email.addEventListener('input', dynamicCheckInputs);
+        message.addEventListener('input', dynamicCheckInputs);
+    }
+
+    
+    
+    /* function checkInputs() {
         //get the values of the inputs without any spaces etc.
         const nameValue = name.value.trim();
         const emailValue = email.value.trim();
@@ -34,7 +77,9 @@ const formValidation = () => {
         } else {
             setSuccesFor(message);
         }
-    }
+    } */
+
+
 
     function setErrorFor(input, message) {
         const formControl = input.parentElement; //.form-control

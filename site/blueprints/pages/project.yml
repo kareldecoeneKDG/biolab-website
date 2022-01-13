@@ -3,16 +3,50 @@ title: Project
 columns:
   - width: 1/2
     fields:
-      paragraph:
+      firstParagraphProject:
         type: writer
-      gallery:
+        inline: true
+      firstImageProject:
         type: files
         layout: cards
-        image:
-          ratio: 1/1
-       pdf:
+        max: 1
+      secondParagraphProject:
+        type: writer
+        inline: true
+      secondImageProject:
+        type: files
+        layout: cards
+        max: 1
+
+      #gallery:
+      #type: files
+      #layout: cards
+      #image:
+      #ratio: 1/1
+
+      pdf:
         label: Pdf
         type: files
+        max: 1
+      scription:
+        label: Scriptie
+        type: files
+        max: 1
+
+      photos:
+        label: Fotos
+        type: structure
+        max: 8
+        fields:
+          photo:
+            label: Creatie foto
+            type: files
+            max: 1
+            required: true
+          photographer:
+            label: Creations creator
+            type: text
+
   - width: 1/2
     sections:
       researchers:

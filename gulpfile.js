@@ -16,7 +16,7 @@ async function clean(cb) {
     cb();
 }
 
-function css(cb) {
+function scss(cb) {
     src(`${origin}/scss/style.scss`)
     .pipe(sass({
         outputStyle: 'compressed'
@@ -27,13 +27,18 @@ function css(cb) {
     cb();
 }
 
+function css(cb) {
+    src(`${origin}/css/*.css`).pipe(dest(`${destination}/css`));
+    cb();
+}
+
 function js(cb) {
     src(`${origin}/js/**/*.js`).pipe(dest(`${destination}/js`));
     cb();
 }
 
 function watcher(cb) {
-    watch(`${origin}/**/**/*.scss`).on('change', series(css, browserSync.reload))
+    watch(`${origin}/**/**/*.scss`).on('change', series(scss, browserSync.reload))
     watch(`${origin}/**/**/*.js`).on('change', series(js, browserSync.reload))
     cb();
 }
@@ -49,4 +54,4 @@ function server(cb) {
 }
 
 //exports.default = series(clean, parallel(css, js));
-exports.default = series(clean, parallel(css, js), server, watcher);
+exports.default = series(clean, parallel(scss, css, js), server, watcher);

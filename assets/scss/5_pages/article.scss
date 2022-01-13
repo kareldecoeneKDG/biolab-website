@@ -26,7 +26,7 @@
 @media only screen and (min-width: $tablet-portrait) {
     .content-article {
         &__image {
-            height: 400px;
+            height: 400px !important;
         }
     }
 }
@@ -37,7 +37,7 @@
 @media screen and (min-width: $desktop-1440) {
     .content-article {
         &__image {
-            height: 450px;
+            height: 450px !important;
         }
     }
 }
@@ -48,7 +48,7 @@
 @media only screen and (min-width: $desktop-hd) {
     .content-article {
         &__image {
-            height: 550px;
+            height: 550px !important;
         }
     }
 }
@@ -59,7 +59,7 @@
 @media only screen and (min-width: $desktop-qhd) {
     .content-article {
         &__image {
-            height: 650px;
+            height: 650px !important;
         }
     }
 }
@@ -70,7 +70,7 @@
 @media only screen and (min-width: $desktop-4k) {
     .content-article {
         &__image {
-            height: 750px;
+            height: 750px !important;
         }
     }
 }

@@ -10,7 +10,7 @@
 .button-small {
     display: inline-block;
 
-    font-family: $verdana;
+    font-family: $primary-font;
     font-size: $p-big-font-size-mobile;
     font-weight: 700;
 
@@ -27,6 +27,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 
 .button-big {

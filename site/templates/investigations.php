@@ -29,13 +29,13 @@
         <?php endif; ?>
 
         
+        
         <?php $investigations = $page->children(); ?>
         <?php foreach($investigations as $investigation): ?>
-
             <div class="investigation-item flex-row-desktop">
-
-                    <img class="investigation-item__img img" src="<?= $investigation->image()->url() ?>" alt="<?= $investigation->image()->alt() ?>">
-
+                <?php if($img = $investigation->image()): ?>
+                    <img class="investigation-item__img img" src="<?= $img->url() ?>" alt="<?= $img->alt() ?>">
+                <?php endif; ?>
 
                 <div>
                     <h3 class="investigation-item__title h3"><?= $investigation->title() ?></h3>
@@ -43,7 +43,6 @@
                     <a class="investigation-item__button button-small" href="<?= $investigation->url()?>">Meer over dit onderzoek</a>
                 </div>
             </div>
-
         <?php endforeach; ?>
     </section>
 </div>

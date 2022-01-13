@@ -31,7 +31,7 @@
                 <?php //TEAM FABLAB MOBILE ?>
                 <div class="team">
                     <div class="team__titlecontainer">
-                        <h2 class="team__titlecontainer__title h2">Team Fablab</h2>
+                        <h2 class="team__titlecontainer__title h2">Team Biolab</h2>
                     </div>
 
 
@@ -102,14 +102,14 @@
             <div class="team-desktop">
                 <div>
                     <div class="team-desktop__titlecontainer">
-                        <h2 class="team-desktop__titlecontainer__title h2">Team Fablab</h2>
+                        <h2 class="team-desktop__titlecontainer__title h2">Team Biolab</h2>
                     </div>
 
                     <div class="team-desktop__container">
                         <?php foreach ($employees as $employee) : ?>
                             <div class="employee flex-row">
                                 <?php if ($employeeImg = $employee->image()->toFile()) : ?>
-                                    <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="Picture employee FabLab">
+                                    <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="<?= $employeeImg->alt() ?>">
                                 <?php endif; ?>
 
                                 <div>

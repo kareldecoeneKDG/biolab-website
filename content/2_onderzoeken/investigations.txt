@@ -16,12 +16,11 @@ Introductionimage:
 
 ----
 
-Investigationsbiolabtitle: De onderzoeken van BioLab
+Investigationsbiolabtitle: De onderzoeken van Biolab
 
 ----
 
-Investigations:
-
+Investigations: 
 
 ----
 

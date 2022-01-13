@@ -12,7 +12,7 @@ Messagetitle: Belangrijk
 
 ----
 
-Messagetext: Gelieve een mail te sturen alvorens Biolab te bezoeken.
+Messagetext: Hier kan je gemakkelijk belangrijke info meegeven aan je bezoekers.
 
 ----
 
@@ -32,15 +32,11 @@ Openhourskdgtitle: Openingsuren
 
 ----
 
-Openhourskdgtext: Ma - do: 9.00u - 16.00u
+Openhourskdgtext: ma - do: 9.00u - 16.00u
 
 ----
 
-Openhoursexterntitle: 
-
-----
-
-Openhoursexterntext: Gelieve een mail te sturen alvorens BioLab te bezoeken.
+Openhoursexterntext: Gelieve een mail te sturen alvorens Biolab te bezoeken.
 
 ----
 
@@ -62,6 +58,52 @@ Workingfablabimage:
 
 ----
 
+Manufacturers:
+
+- 
+  image:
+    - logo.png
+  url: https://www.kuleuven.be/kuleuven/
+- 
+  image:
+    - image_preview.png
+  url: https://www.kuleuven.be/kuleuven/
+
+----
+
+Inspirations:
+
+- 
+  icon: recycle
+  anchor: Recycle item
+  url: https://www.facebook.com/
+- 
+  icon: circular
+  anchor: Nog een test
+  url: https://www.kdg.be/
+- 
+  icon: research
+  anchor: Dit is een project
+  url: https://www.google.com
+- 
+  icon: ecological
+  anchor: Chemisch link
+  url: https://www.linkedin.com/feed/
+
+----
+
+Partners:
+
+- kdg_h_closed_black_srgb.png
+- >
+  provincie_antwerpen_logo_rgb_nobackground.png
+
+----
+
+Openhoursexterntitle: 
+
+----
+
 Biolabtitle: 
 
 ----
@@ -78,25 +120,4 @@ Biolabimage:
 
 ----
 
-Manufacturers:
-
-- 
-  image:
-    - logo.png
-  url: https://www.kuleuven.be/kuleuven/
-- 
-  image:
-    - image_preview.png
-  url: https://www.kuleuven.be/kuleuven/
-
-----
-
 Fablabs: 
-
-----
-
-Partners:
-
-- kdg_h_closed_black_srgb.png
-- >
-  provincie_antwerpen_logo_rgb_nobackground.png

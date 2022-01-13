@@ -13,12 +13,12 @@
                         <h1 class="contact-container__contact__flexbox__title h1"><?= $page->pageTitle() ?></h1>
                     <?php endif; ?>
 
-                    <?php if($page->address()->isNotEmpty()): ?>
-                        <a class="contact-container__contact__flexbox__data__link" href="https://www.google.be/maps/place/Salesianenlaan+90,+2660+Antwerpen/@51.1732441,4.3693704,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f150286bde31:0x540bf1fb6f744868!8m2!3d51.1732441!4d4.3715591" target="_blank"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
+                    <?php if($site->address()->isNotEmpty()): ?>
+                        <a class="contact-container__contact__flexbox__data__link" href="https://www.google.be/maps/place/Salesianenlaan+90,+2660+Antwerpen/@51.1732441,4.3693704,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f150286bde31:0x540bf1fb6f744868!8m2!3d51.1732441!4d4.3715591" target="_blank"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $site->address() ?></a>
                     <?php endif; ?>
 
-                    <?php if($page->email()->isNotEmpty()): ?>
-                        <a class="contact-container__contact__flexbox__data__link" href="mailto: <?= $page->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
+                    <?php if($site->email()->isNotEmpty()): ?>
+                        <a class="contact-container__contact__flexbox__data__link" href="mailto: <?= $site->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $site->email() ?></a>
                     <?php endif; ?>
 
 
