@@ -87,7 +87,11 @@
 #footer-tablet-landscape {
     display: none;
     position: relative;
-    z-index: 99;;
+    z-index: 99;
+
+    .footer-partners {
+        margin-top: 50px;
+    }
 }
 
 #sitemap-desktop-mobile {

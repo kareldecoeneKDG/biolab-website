@@ -73,21 +73,30 @@ Infolinks:
 
 ----
 
-Kdgimage:
+Partnersfooter:
 
-- footer-kdg.png
-
-----
-
-Provinceantwerpimage:
-
-- footer-provinciea.png
+- 
+  logo:
+    - footer-kdg.png
+  website: https://www.kdg.be/
+- 
+  logo:
+    - footer-provinciea.png
+  website: https://www.provincieantwerpen.be/
 
 ----
 
 Biolablogo:
 
 - logo-biolab.png
+
+----
+
+Kdgimage: - footer-kdg.png
+
+----
+
+Provinceantwerpimage: - footer-provinciea.png
 
 ----
 

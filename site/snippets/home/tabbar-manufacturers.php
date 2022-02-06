@@ -6,7 +6,7 @@ $manufacturers = $page->manufacturers()->toStructure();
     <div class="tabscontainer__tabs">
         <div class="tabscontainer__tabs__tabheader">
             <div class="tabscontainer__tabs__tabheader__item active">
-                Manufacturers
+                Links
             </div>
             <div class="tabscontainer__tabs__tabheader__item">
                 Inspiratie
